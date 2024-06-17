@@ -44,13 +44,17 @@ Autodistill is employed to identify specific objects (milk bottles and blue caps
 #### Link to notebook [here](https://github.com/SahilCarterr/Defected-Industrial-Parts-Image-Generation-and-Defect-Detection/blob/889bd7f766978f560cfa6119af050ba3b3c0b70a/Autodistill%20Inference.ipynb)
 ## Inferencing and Fine-Tuning MM Detection Model
 An MM detection model is first used on a generic image to perform object detection. The model is then fine-tuned using the COCO dataset and further fine-tuned on a specific industrial dataset for better performance in detecting defects.
+
 ![Inference model](/raw_infrecne%20nndetect.png)
+
 **Figure 1:** Inference MMDetection
 ###
 ![Finetune B model](/ballon_finetune.png)
+
 **Figure 2:** Finetuning on Ballon COCO dataset
 ###
 ![Finetune I model](/industrial_finetuing.png)
+
 **Figure 3:** Finetuning on Custom Industial dataset
 ### Steps:
 1. **Initial Inference**: Use the MM detection model on a generic image to understand its performance.
