@@ -67,10 +67,10 @@ Grounding DINO is a state-of-the-art model for object detection. This section co
 ### Steps:
 1. **Dataset Preparation**: Prepare a custom dataset with labeled images of industrial parts and defects.
 2. **Model Configuration**: Configure the Grounding DINO model for fine-tuning.
-3. **Fine-Tuning**: Train the Grounding DINO model on the custom dataset to improve its defect detection capabilities.
+3. **Fine-Tuning**: Train the Grounding DINO model on the custom dataset to improve its defect detection capabilities using a prompt.
 
 ### Usage
 To use this models and scripts,follow the instructions is given in the notebook here. Ensure all dependencies are installed and configured correctly.
 #### Link to notebook [here](https://github.com/longzw1997/Open-GroundingDino/blob/main/examples/Training_Script_example.ipynb)
 ### License
-[MIT]()
+[MIT](LICENSE)
